@@ -11,9 +11,7 @@ class MergeSort:
 
           self.len = len( arr )
 
-          self.vec = []
-
-          self.vec = arr;
+          self.vec = [ arr[ i ] for i in range(0, self.len ) ]
 
           self._divide_et_impera(0, self.len - 1)
 

@@ -93,7 +93,7 @@ class Controller(webapp.RequestHandler):
         self.response.write( ("Time execution: %s seconds " % (time.clock() - start_time)) )
         self.response.write('</p>')        
 
-        self.response.write('<div id="ft" role="contentinfo"><p>Created by @<a href="http://thinkphp.ro">Adrian Statescu</a> | <a href="https://github.com/thinkphp/meergesortpy">Fork on GitHub</a></p></div>')
+        self.response.write('<div id="ft" role="contentinfo"><p>Created by @<a href="http://thinkphp.ro">Adrian Statescu</a> | <a href="https://github.com/thinkphp/mergesortpy">Fork on GitHub</a></p></div>')
         self.response.write('</div></body></html>')
 
 application = webapp.WSGIApplication([
